@@ -65,8 +65,6 @@ class MainActivity : AppCompatActivity() {
 
         btnDelete.setOnClickListener {
 
-
-
             val dir: File = filesDir
             val file = File(dir, FILE_NAME)
             val deleted: Boolean = file.delete()
